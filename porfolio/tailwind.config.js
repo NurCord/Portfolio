@@ -26,7 +26,14 @@ module.exports = {
         100: '60rem',
         20: '5vh',
         200:'84rem',
-      }
+      },
+      transitionDuration: {
+        '5': '5s',
+      },
+      fontFamily: {
+        'londrina': ['Londrina Solid'],
+        'londrinaS': ['Londrina Shadow'],
+      },
     },
   },
   plugins: [

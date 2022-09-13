@@ -1,4 +1,3 @@
-import './App.css';
 import clsx from 'clsx';
 import Image from './components/Image';
 import NavBar from './components/NavBar';
@@ -19,21 +18,25 @@ export default function App() {
         </div>
         <div className='absolute bottom-0 left-0 w-full border-t-0 border-r-0 border-solid border-l-100 border-b-10 border-t-transparent border-r-transparent border-b-pink-100 border-l-transparent bg-blueGreen-100 -z-10'>
         </div>
-        <div className='absolute left-1/2 top-1/4'>
-            <H1 sentences={'Hola mi nombre es Nuria.'}/>
-            <H1 sentences={'Me gusta estar en constante aprendizaje,'}/>
-            <H1 sentences={'y trabajando en grupo'}/>
+        <div className='absolute left-1/2 top-10 font-normal text-4xl'>
+            <div className='flex'>
+              <H1 sentences={'Hola mi nombre es '}/><H1 sentences={'Nuria.'} fontr='true'></H1>
+            </div>
+            <H1 sentences={'Me gusta estar en constante aprendizaje'}/>
+            <H1 sentences={'y trabajando en grupo.'}/>
         </div>
       </div>
 
-      <div className='relative flex items-center w-full truncate bg-pink-300 h-96 wrap'>
-            <Skills/>
+      <div className='relative flex items-center w-full truncate bg-pink-300 h-[35rem]'>
+        <h2 className='w-1/3 text-center text-5xl font-normal'>Skills</h2>
+        <Skills/>
       </div>
       
       <div className='relative w-full'>
         <div className='top-0 left-0 bg-pink-200 border-b-0 border-r-0 border-solid border-l-200 border-t-20 border-t-pink-300 border-r-transparent border-b-transparent border-l-transparent'>
         </div>
-         <div className='z-0 flex w-full py-8 bg-pink-200 h-96'>
+         <div className='z-0 flex w-full flex-col items-center py-8 bg-pink-200 h-[35rem]'>
+          <h2 className='w-1/3 text-center text-5xl font-normal'>Proyects</h2>
           <Cards />
         </div> 
       </div>
