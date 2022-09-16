@@ -51,17 +51,17 @@ export default function NavBar() {
               <span className="sr-only">Toggle dark/light mode</span>
             </button>
           </div>
-          <button onClick={() => handleOnClick()} className="inline-flex flex-col items-center w-12 h-12 p-3 text-white bg-pink-300 rounded-lg " type="button"><UilBars/></button>
-          <div id="dropdown" className={`${variable} z-10 h-auto absolute right-16 top-2 bg-pink-300 rounded divide-y divide-pink-300 shadow`}>
+          <button onClick={() => handleOnClick()} className="inline-flex flex-col items-center w-12 h-12 p-3 text-white bg-pink-300 rounded-lg dark:bg-pink-600 " type="button"><UilBars/></button>
+          <div id="dropdown" className={`${variable} z-10 h-auto absolute right-16 top-2 dark:bg-pink-600 bg-pink-300 rounded divide-y divide-pink-300 shadow`}>
               <ul className="py-1 text-sm text-white" aria-labelledby="dropdownDefault">
                 <li>
-                  <a href="#project" className="block px-4 py-2 hover:bg-gray-100">Proyects</a>
+                  <a href="#project" className="block px-4 py-2 hover:bg-pink-200">Proyects</a>
                 </li>
                 <li>
-                  <a href="#skills" className="block px-4 py-2 hover:bg-gray-100">Skills</a>
+                  <a href="#skills" className="block px-4 py-2 hover:bg-pink-200">Skills</a>
                 </li>
                 <li>
-                  <a href="#contact" className="block px-4 py-2 hover:bg-gray-100">Contact</a>
+                  <a href="#contact" className="block px-4 py-2 hover:bg-pink-200">Contact</a>
                 </li>
               </ul>
           </div>
