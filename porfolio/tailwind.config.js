@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
@@ -33,6 +34,10 @@ module.exports = {
       fontFamily: {
         'londrina': ['Londrina Solid'],
         'londrinaS': ['Londrina Shadow'],
+      },
+      screens: {
+        'mobile': '320px',
+        'desktop': '950px',
       },
     },
   },

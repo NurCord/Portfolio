@@ -1,5 +1,5 @@
 import React from 'react'
-import imgs from '../imgs.jpeg'
+import imgs from '../../access/imgs.jpeg'
 
 export default function Image() {
   return (
