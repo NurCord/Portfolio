@@ -25,7 +25,7 @@ export default function NavBar() {
           <>
             <div className='grid content-center grid-cols-3 col-start-4 col-end-6 gap-4 cursor-pointer justify-evenly'>
               <a href='#project' className='content-center'>
-                <NavWords word='Proyects'/>
+                <NavWords word='Projects'/>
               </a>
               <a href='#skills' className='content-center'>
                 <NavWords word='Skills'/>
