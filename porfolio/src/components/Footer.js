@@ -8,7 +8,7 @@ import { UilInstagramAlt } from '@iconscout/react-unicons'
 
 export default function Footer() {
   return (
-      <div class={clsx(
+      <div className={clsx(
         'bg-blueGreen-200 dark:bg-blueGreen-400 mobile:h-52 w-full',
         'desktop:h-60 desktop:flex desktop:flex-row',
       )} id='contact'>

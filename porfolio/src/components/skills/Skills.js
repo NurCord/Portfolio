@@ -18,7 +18,7 @@ export default function Skills() {
         'grid w-full h-full desktop:grid-cols-4 py-8'
         )}>
         {
-          images.map(e => <CardSkill name={e.name} img={e.img} url={e.url}/>)
+          images.map((e, i) => <CardSkill key={i} name={e.name} img={e.img} url={e.url}/>)
         }
       </div>
     </div>
