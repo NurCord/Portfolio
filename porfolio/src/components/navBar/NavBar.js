@@ -55,13 +55,13 @@ export default function NavBar() {
           <div id="dropdown" className={`${variable} z-10 h-auto absolute right-16 top-2 bg-pink-300 rounded divide-y divide-pink-300 shadow`}>
               <ul className="py-1 text-sm text-white" aria-labelledby="dropdownDefault">
                 <li>
-                  <a href="# " className="block px-4 py-2 hover:bg-gray-100">Proyects</a>
+                  <a href="#project" className="block px-4 py-2 hover:bg-gray-100">Proyects</a>
                 </li>
                 <li>
-                  <a href="# " className="block px-4 py-2 hover:bg-gray-100">Skills</a>
+                  <a href="#skills" className="block px-4 py-2 hover:bg-gray-100">Skills</a>
                 </li>
                 <li>
-                  <a href="# " className="block px-4 py-2 hover:bg-gray-100">Contact</a>
+                  <a href="#contact" className="block px-4 py-2 hover:bg-gray-100">Contact</a>
                 </li>
               </ul>
           </div>
