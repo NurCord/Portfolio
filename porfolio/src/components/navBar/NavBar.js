@@ -55,7 +55,7 @@ export default function NavBar() {
           <div id="dropdown" className={`${variable} z-10 h-auto absolute right-16 top-2 dark:bg-pink-600 bg-pink-300 rounded divide-y divide-pink-300 shadow`}>
               <ul className="py-1 text-sm text-white" aria-labelledby="dropdownDefault">
                 <li>
-                  <a href="#project" className="block px-4 py-2 hover:bg-pink-200">Proyects</a>
+                  <a href="#project" className="block px-4 py-2 hover:bg-pink-200">Projects</a>
                 </li>
                 <li>
                   <a href="#skills" className="block px-4 py-2 hover:bg-pink-200">Skills</a>
