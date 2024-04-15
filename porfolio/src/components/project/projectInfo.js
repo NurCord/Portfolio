@@ -24,7 +24,7 @@ export const arr = [
       'name': 'Henry Food',
       'description': 'Pagina Web de recetas, donde se consume la API externa spoonacular. Hecho con React, Redux, Styled Components, Express, PostgreSQL, Sequelize.',
       'image': food,
-      'url': 'https://pi-henry-food-nurcord.vercel.app/',
+      'url': 'https://seachfood-lwowbnuck-nurcords-projects.vercel.app/',
       'urlGit': 'https://github.com/NurCord/PI-Henry-food'
     }
   ]
