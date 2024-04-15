@@ -1,6 +1,5 @@
 # Portfolio
 ### General Info
-***
 🚀 Deploy: [Portfolio](https://portfolio-rho-five-54.vercel.app/)
 
 ## Technologies
